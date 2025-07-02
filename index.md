@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 个人主页
+title: 张琳 || 个人主页
 ---
 
 ## 教育经历
