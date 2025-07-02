@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Curriculum Vitae
+# title: Curriculum Vitae
 ---
 
 ## 教育经历
