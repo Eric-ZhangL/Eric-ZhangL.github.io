@@ -1,12 +1,12 @@
-- title: Projects
+- title: 项目介绍
   url: /project/
 # - title: Side Proj.
 #   url: /toyproject/
 # - title: Blogs
 #   url: /categories/
-- title: Blogs
+- title: 个人一隅
   url: /tags/
-- title: More
+- title: 更多
   sublinks:
     - title: FAQ
       url: /faq/
