@@ -3,6 +3,7 @@ description: A minimal and beautiful Jekyll theme best for writing and note-taki
 author: 张琳
 avatar: /logo.png
 email: bit.zhanglin@bit.edu.cn
+subscribe: False
 location: China, Beijing
 
 plugins:
@@ -38,7 +39,7 @@ social:
   name: Lin Zhang
   links:
     # - https://github.com/Eric-ZhangL
-    # - https://www.facebook.com/ngzhio
+    - https://www.facebook.com/ngzhio
     - https://github.com/Eric-ZhangL
 google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
 lang: en
