@@ -1,6 +1,6 @@
 ---
-layout: home
-# title: Curriculum Vitae
+layout: Homepage
+title: 个人主页
 ---
 
 ## 教育经历
