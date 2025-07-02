@@ -1,6 +1,9 @@
-- title: Twitter
-  url: https://twitter.com/ngzhio
-  icon: fab fa-twitter
 - title: GitHub
-  url: https://github.com/ngzhio/jekyll-theme-hamilton
+  url: https://github.com/Eric-ZhangL
   icon: fab fa-github
+- title: Google Scholar
+  url: https://scholar.google.com.hk/citations?user=4yb0RhMAAAAJ&hl=en
+  icon: fas fa-graduation-cap
+- title: ORCID
+  url: https://orcid.org/0000-0001-7281-8790
+  icon: fas fa-id-badge
