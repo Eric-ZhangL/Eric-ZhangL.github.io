@@ -4,6 +4,7 @@ author: 张琳
 avatar: /logo.png
 email: bit.zhanglin@bit.edu.cn
 location: China, Beijing
+subscribe: False
 
 plugins:
   - jekyll-seo-tag
