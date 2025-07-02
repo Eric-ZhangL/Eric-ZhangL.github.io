@@ -1,14 +1,14 @@
-- title: About
-  url: /about/
-- title: Years
-  url: /years/
-- title: Categories
-  url: /categories/
-- title: Tags
+- title: Projects
+  url: /project/
+# - title: Side Proj.
+#   url: /toyproject/
+# - title: Blogs
+#   url: /categories/
+- title: Blogs
   url: /tags/
 - title: More
   sublinks:
     - title: FAQ
       url: /faq/
-    - title: Docs
+    - title: Tips
       url: /docs/
