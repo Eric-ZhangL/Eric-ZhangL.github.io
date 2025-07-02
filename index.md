@@ -1,5 +1,5 @@
 ---
-layout: Homepage
+layout: home
 title: 个人主页
 ---
 
