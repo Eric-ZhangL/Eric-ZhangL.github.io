@@ -21,9 +21,15 @@
 <div id="toptitle">
 
 
+<h2>新型非接触式测厚仪</h2>
+<table class="imgtable"><tr><td>
+<img src="thickness_meter.png" alt="alt text" width="300px" height="95px" />&nbsp;</td>
+<td align="left"><p><b>大学生创新创业训练计划项目 &nbsp;|&nbsp; 2018 – 2019</b><br />
+<b>项目介绍</b>: 板厚检测是高端冷轧带钢生产的关键技术。针对原有结构精度不足的问题，通过分析发现误差主要源于板带自身未对齐。基于此，设计了多传感器滑块导轨测量机构，上下高精度激光传感器同步测量板带厚度，并实现信号数字化、实时传输与多点厚度采集，最终可高精度重建带材截面形貌，提升检测精度与稳定性。<br />
+<b>负责工作</b>: 作为项目负责人，主导整体方案规划与技术路线设计，负责机构与测量系统的优化改进，组织联机调试与实验验证，撰写技术报告与科研文档，并主持项目答辩与成果汇报。</p>
+</td></tr></table>
 
-
-<h1>Research Projects</h1>
+<h1>Projects</h1>
 </div>
 <h2>DeSKO: Stability-Assured Robust Control with a Deep Stochastic Koopman Operator</h2>
 <table class="imgtable"><tr><td>
@@ -32,24 +38,31 @@
 Therefore, we propose a deep stochastic Koopman operator (DeSKO) model in a robust learning control framework to guarantee stability of nonliner stochastic systems. The DeSKO model can capture a dynamical system's uncertainty and infer a distribution of observables. We use the inferred distribution to design a robust, stabilizing closed-loop controller for a dynamical system. Modeling and control experiments on several advanced control benchmarks show that our framework is more robust and scalable than state-of-the-art deep Koopman operators and reinforcement learning methods. Tested benchmarks include a soft robotic arm, a legged robot, and a biological gene regulatory network. We also demonstrate that this robust control method resists previously unseen uncertainties, such as external disturbances, with a magnitude of up to five times the maximum control input. Our approach opens up new possibilities in learning control for high-dimensional nonlinear systems while robustly managing internal or external uncertainty. <br />
 [<a href="https://openreview.net/pdf?id=hniLRD_XCA">Paper</a>]</p>
 </td></tr></table>
+
+
+
+
 <h2>Actor-Critic Reinforcement Learning for Control with Stability Guarantee </h2>
 <table class="imgtable"><tr><td>
 <img src="mss2.png" alt="alt text" width="300px" height="175px" />&nbsp;</td>
 <td align="left"><p><b>Abstract</b>: Reinforcement Learning (RL) and its integration with deep learning have achieved impressive performance in various robotic control tasks, ranging from motion planning and navigation to end-to-end visual manipulation. However, stability is not guaranteed in model-free RL by solely using data. From a control-theoretic perspective, stability is the most important property for any control system, since it is closely related to safety, robustness and reliability of robotic systems. In this paper, we propose an actor-critic RL framework for control which can guarantee the closed-loop stability by employing the classic Lyapunov's method in control theory. First of all, a data-based stability theorem is proposed for stochastic nonlinear systems modeled by Markov decision process. Then we show that the stability condition could be exploited as the critic in the actor-critic RL to learn a controller/policy. At last, the effectiveness of our approach is evaluated on several well-known 3-dimensional robot control tasks and a synthetic biology gene network tracking task in three different popular physics simulation platforms. As an empirical evaluation on the advantage of stability, we show that the learned policies can enable the systems to recover to the equilibrium or way-points when interfered by uncertainties such as system parametric variations and external disturbances to a certain extent. <br />
 [<a href="https://ieeexplore.ieee.org/document/9146733/authors">Paper</a>]</p>
 </td></tr></table>
+
 <h2>Reinforcement Learning Control with Probabilistic Stability Guarantee</h2>
 <table class="imgtable"><tr><td>
 <img src="prob.png" alt="alt text" width="300px" height="210px" />&nbsp;</td>
 <td align="left"><p><b>Abstract</b>:Reinforcement learning is promising to control complex stochastic nonlinear dynamical systems modeled by Markov Decision Process (MDP) for which the traditional control methods are hardly applicable. However, in control theory, the stability of a closed-loop system can be hardly guaranteed using the policy/controller learned solely from samples which presents a major bottleneck for its application in control engineering. In this paper, we will combine Lyapunov's method in control theory and stochastic analysis to analyze the mean square stability of MDP in a model-free manner. For the first time, the probabilistic finite sample-based stability theorems under which the system is guaranteed to be stable with a certain probability are given. And the probability is a monotone increasing function of the number of samples, i.e., the probability is 1 when the samples are infinite. Based on the novel stability theorems, an algorithm using policy gradient is proposed to learn the controller and the Lyapunov function simultaneously. A connection with the classic REINFORCE algorithm is also revealed as an independent interest.<br />
 [Paper comming soon!]</p>
 </td></tr></table>
+
 <h2>Reinforcement Learning Control of Constrained Dynamic Systems with Uniformly Ultimate Boundedness Stability Guarantee</h2>
 <table class="imgtable"><tr><td>
 <img src="safeRL.png" alt="alt text" width="300px" height="183px" />&nbsp;</td>
 <td align="left"><p><b>Abstract</b>: Reinforcement learning (RL) is promising for complicated stochastic nonlinear control problems. Without using a mathematical model, an optimal controller can be learned from data evaluated by certain performance criteria through trial-and-error. However, the data-based learning approach is notorious for not guaranteeing stability, which is the most fundamental property for any control system. In this paper, the classic Lyapunov's method is explored to analyze the uniformly ultimate boundedness stability (UUB) solely based on data without using a mathematical model. It is further shown how RL with UUB guarantee can be applied to control dynamic systems with safety constraints. Based on the theoretical results, both off-policy and on-policy learning algorithms are proposed respectively. As a result, optimal controllers can be learned to guarantee UUB of the closed-loop system both at convergence and during learning. The proposed algorithms are evaluated on a series of robotic continuous control tasks with safety constraints. In comparison with the existing RL algorithms, the proposed method can achieve superior performance in terms of maintaining safety. As a qualitative evaluation of stability, our method shows impressive resilience even in the presence of external disturbances. <br />
 [<a href="https://arxiv.org/pdf/2011.06882.pdf">Paper</a>]</p>
 </td></tr></table>
+
 <h2>H∞ Model-free Reinforcement Learningwith Robust Stability Guarantee </h2>
 <table class="imgtable"><tr><td>
 <img src="robustRL.png" alt="alt text" width="300px" height="137px" />&nbsp;</td>
