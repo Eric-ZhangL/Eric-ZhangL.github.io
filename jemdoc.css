@@ -1,9 +1,16 @@
 /* Default css file for jemdoc. */
 
 table#tlayout {
+    /* 主布局占满可用宽度，使各页面的标题横线保持一致。 */
+    width: 100%;
     border: none;
     border-collapse: separate;
     background: white;
+}
+
+html {
+    /* 统一预留滚动条空间，避免长短页面切换时布局宽度变化。 */
+    overflow-y: scroll;
 }
 
 body {
