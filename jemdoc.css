@@ -104,6 +104,8 @@ div.menu-item {
 div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
+	/* 抵消正文右内边距和外层表格间距，让标题线延伸至页面右边缘。 */
+	margin-right: calc(-1em - 2px);
 	border-bottom: 3px double gray;
 }
 
