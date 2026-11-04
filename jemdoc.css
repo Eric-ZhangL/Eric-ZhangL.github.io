@@ -20,7 +20,10 @@ body {
 	padding-left: 8px;
 	padding-right: 8px;
 	font-size: 1.2em;
-	width: auto;
+	/* 中英文导航统一宽度，包含内边距和边框。 */
+	box-sizing: border-box;
+	width: 180px;
+	min-width: 180px;
 	white-space: nowrap;
     text-align: left;
     vertical-align: top;
