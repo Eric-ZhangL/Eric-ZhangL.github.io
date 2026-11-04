@@ -366,3 +366,62 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+
+/* ==========================================
+   中英文语言切换按钮 (Language Switch)
+   ========================================== */
+
+/* 顶部标题区域：为语言切换按钮预留位置 */
+div#toptitle {
+    position: relative;
+    padding-right: 155px;
+}
+
+/* 语言切换按钮：位于标题右上角 */
+.language-switch {
+    position: absolute;
+    right: 0;
+    top: 0.5em;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+/* 未选中的语言：蓝色可点击链接 */
+.language-switch a {
+    color: #527bbd;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* 鼠标悬停效果 */
+.language-switch a:hover {
+    text-decoration: underline;
+    border-bottom: none;
+}
+
+/* 当前语言：加粗显示 */
+.language-switch .active {
+    color: #333333;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+/* 两种语言之间的分隔符 */
+.language-switch .divider {
+    color: #999999;
+}
+
+/* 窄屏幕下避免标题与按钮重叠 */
+@media screen and (max-width: 600px) {
+    div#toptitle {
+        padding-right: 0;
+    }
+
+    .language-switch {
+        position: static;
+        text-align: right;
+        margin-bottom: 8px;
+    }
+}
+
