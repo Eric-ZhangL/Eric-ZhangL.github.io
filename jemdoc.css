@@ -24,7 +24,9 @@ body {
 	box-sizing: border-box;
 	width: 180px;
 	min-width: 180px;
-	white-space: nowrap;
+	/* 允许长菜单换行，避免大字号下内容撑宽表格单元格。 */
+	white-space: normal;
+	overflow-wrap: anywhere;
     text-align: left;
     vertical-align: top;
 }
